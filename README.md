@@ -156,6 +156,12 @@ Face Detection using cob_perception
 4. use `roslaunch openni_launch openni.launch` to start kinect
 5. `roslaunch cob_people_detection people_detection.launch`
 
+
+If you encounter an error  stack/package not found, rememebr to specifiy the source to your project workspace by typing:
+```bash
+export ROS_PACKAGE_PATH=/home/$USER/$WORKSPACE/:$ROS_PACKAGE_PATH
+```
+
 Visualizing a color point cloud of scene using ROS & RVIZ
 =========================================================
 
